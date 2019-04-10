@@ -22,16 +22,16 @@ CH57x系列单片机是WCH推出的32位低功耗无线通信系列MCU，该系�
 
 - [CH576](https://github.com/sochub/CH576) 
 
-#### [相似产品](https://github.com/sochub/CH57)
+#### [相似无线产品](https://github.com/sochub/CH57)
 
 - [CC2541](https://github.com/sochub/CC2541)
 - [CC2530](https://github.com/sochub/CC2530)  
 - [NRF51](https://github.com/sochub/NRF51) 
 - [NRF52](https://github.com/sochub/NRF52) 
 
-#### [姊妹产品](https://github.com/sochub/WCH)
+#### [WCH姊妹产品](https://github.com/sochub/WCH)
 
-- [CH56](https://github.com/sochub/CH56)
+- [CH56x系列](https://github.com/sochub/CH56)
 - [WCH-8051](https://github.com/sochub/WCH-8051)  
 
 ###  [SoC开发平台](http://www.qitas.cn)   

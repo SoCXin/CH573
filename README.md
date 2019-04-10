@@ -1,8 +1,11 @@
-﻿# [WCH](https://github.com/sochub/WCH)
-####  qitas@qitas.cn
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+﻿# [CH57](https://github.com/sochub/CH57)
 
-## [描述](https://github.com/sochub/WCH/wiki) 
+[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+####  qitas@qitas.cn
+
+#### 父级：[WCH](https://github.com/sochub/WCH-8051) 
+#### 归属：[CM0](https://github.com/sochub/CM0) 
+## [描述](https://github.com/sochub/CH57/wiki) 
 
 WCH 32位低功耗无线通信系列MCU (包括的主要功能有：BLE / Zigbee / USB / Ethernet / Touchkey)
 

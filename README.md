@@ -3,7 +3,7 @@
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
 ####  qitas@qitas.cn
 
-#### 父级：[WCH](https://github.com/sochub/WCH-8051) 
+#### 父级：[WCH](https://github.com/sochub/WCH) 
 #### 归属：[CM0](https://github.com/sochub/CM0) 
 
 ## [描述](https://github.com/sochub/CH57/wiki) 

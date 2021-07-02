@@ -1,3 +1,7 @@
 *.pyc
+*.hex
+*.log
 .pio/
 .vscode/
+.settings
+obj

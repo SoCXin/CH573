@@ -2,11 +2,10 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[WCH](http://www.wch.cn/)
-#### [Core](https://github.com/SoCXin/RISC-V)：[ RISC-V3A](https://github.com/SoCXin/RISC-V)
-#### [Level](https://github.com/SoCXin/Level)：60MHz
+* [WCH](http://www.wch.cn/)：[RISC-V3A](https://github.com/SoCXin/RISC-V)
+* [L2R3](https://github.com/SoCXin/Level)：20 MHz
 
-## [CH573描述](https://github.com/SoCXin/CH573/wiki)
+## [简介](https://github.com/SoCXin/CH573/wiki)
 
 [CH573](https://github.com/SoCXin/CH573) 采用32位RISC-V3A内核，最高60MHz系统主频，支持RV32 IMAC指令集，支持硬件乘法和除法，片上集成BLE模块、全速USB主从控制器、SPI、4个串口、ADC、触摸按键检测模块、RTC等丰富的外设资源。
 
@@ -24,16 +23,21 @@
 * 内置实时时钟RTC，支持定时和触发两种模式
 * SPI(M/S) + UART x 4 (16C550/6Mbps)
 * 内置AES-128加解密单元，芯片唯一ID
-* 封装(QFN28_4X4)
 
-### [资源收录](https://github.com/SoCXin/CH573)
+### [资源收录](https://github.com/SoCXin)
 
-* [参考文档](docs/)
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
 
 ### [选型建议](https://github.com/SoCXin)
 
 [CH573](https://github.com/SoCXin/CH573)
 
-###  [SoC芯平台](http://www.SoC.Xin)
+
+* QFN28 (4*4mm)
+
+[![sites](docs/diff.png)](http://www.wch.cn/products/CH573.html)
+[![sites](docs/list.png)](http://www.wch.cn/products/CH573.html)
+
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)

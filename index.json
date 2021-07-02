@@ -1,0 +1,50 @@
+{
+    "type":"SoC",
+    "name":"CH573",
+    "title": "WCH SoC CH573",
+    "description":"WCH RISC-V CH573 SoC",
+    "version":"1.0.0",
+    "price":[4,8],
+    "Core": {
+        "num": 1,
+        "type":"RISC-V",
+        "Freq": 144,
+        "DMIPS": 100,
+        "CoreMark": 160
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH573.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH573.git"
+    },
+    "series":["CH573","CH32V203"],
+    "package":["LQFP64M","QFN68","QFN48","QFN28"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "PWR": {
+        "VDD": [2800,5000],
+        "Ivdd": 3.5,
+        "LDO": [5000,3300],
+        "rate": 1024
+    },
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "dev-platform",
+        "RISC-V",
+        "WCH",
+        "CH573",
+        "DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}

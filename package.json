@@ -1,8 +1,0 @@
-{
-    "name":"CH573",
-    "Core":"RISC-V",
-    "Vendor":"wch",
-    "description":"RISC-V3A CH573 MCU",
-    "url":"https://github.com/SoCXin/CH573",
-    "version":"1.0.0"
-}

@@ -21,6 +21,15 @@ uint8 taskID;
 uint8 TX_DATA[10] ={1,2,3,4,5,6,7,8,9,0};
 
 
+/*******************************************************************************
+* Function Name  : RF_2G4StatusCallBack
+* Description    : RF 状态回调，注意：不可在此函数中直接调用RF接收或者发送API，需要使用事件的方式调用
+* Input          : sta - 状态类型
+*                   crc - crc校验结果
+*                   rxBuf - 数据buf指针
+* Output         : None
+* Return         : None
+*******************************************************************************/
 void RF_2G4StatusCallBack( uint8 sta , uint8 crc, uint8 *rxBuf )
 {
   switch( sta )
@@ -93,6 +102,14 @@ void RF_2G4StatusCallBack( uint8 sta , uint8 crc, uint8 *rxBuf )
 }
 
 
+/*******************************************************************************
+* Function Name  : RF_ProcessEvent
+* Description    : RF 事件处理
+* Input          : task_id - 任务ID
+*                   events - 事件标志
+* Output         : None
+* Return         : None
+*******************************************************************************/
 uint16 RF_ProcessEvent( uint8 task_id, uint16 events )
 {
   if ( events & SYS_EVENT_MSG )
@@ -131,6 +148,13 @@ uint16 RF_ProcessEvent( uint8 task_id, uint16 events )
   return 0;
 }
 
+/*******************************************************************************
+* Function Name  : RF_Init
+* Description    : RF 初始化
+* Input          : None
+* Output         : None
+* Return         : None
+*******************************************************************************/
 void RF_Init( void )
 {
   uint8 state;

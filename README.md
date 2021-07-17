@@ -3,7 +3,7 @@
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
 * [WCH](http://www.wch.cn/)：[RISC-V3A](https://github.com/SoCXin/RISC-V)
-* [L2R3](https://github.com/SoCXin/Level)：20 MHz
+* [L2R2](https://github.com/SoCXin/Level)：20 MHz
 
 ## [简介](https://github.com/SoCXin/CH573/wiki)
 
@@ -39,5 +39,9 @@
 
 [![sites](docs/diff.png)](http://www.wch.cn/products/CH573.html)
 [![sites](docs/list.png)](http://www.wch.cn/products/CH573.html)
+
+#### 相关开发板
+
+[![sites](docs/B.jpg)](https://item.taobao.com/item.htm?spm=a230r.1.14.23.27ff8325Ct03Hk&id=638956144135&ns=1&abbucket=19#detail)
 
 ### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)

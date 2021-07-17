@@ -322,6 +322,7 @@ void LowPower_Shutdown( UINT8 rm )
     R8_XT32K_TUNE = x32Kpw;
     R8_XT32M_TUNE = x32Mpw;
     R8_SAFE_ACCESS_SIG = 0;    
+    SetSysClock( CLK_SOURCE_HSE_6_4MHz );
 
     PFIC -> SCTLR |= (1<<2);				//deep sleep
 
@@ -333,7 +334,6 @@ void LowPower_Shutdown( UINT8 rm )
                     |rm;
     __WFI();
     __nop();__nop();
-    SYS_ResetExecute();
 }
 
 

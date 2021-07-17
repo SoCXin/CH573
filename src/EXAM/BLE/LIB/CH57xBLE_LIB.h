@@ -1,8 +1,8 @@
 /********************************** (C) COPYRIGHT ******************************
 * File Name         : CH57xBLE_LIB.H
 * Author            : WCH
-* Version           : V1.40
-* Date              : 2021/04/24
+* Version           : V1.50
+* Date              : 2021/06/29
 * Description       : head file
 *******************************************************************************/
 
@@ -165,7 +165,7 @@ typedef struct
 /*********************************************************************
  * GLOBAL MACROS
  */
-#define  VER_FILE            "CH57x_BLE_LIB_V1.4"
+#define  VER_FILE            "CH57x_BLE_LIB_V1.5"
 extern const u8 VER_LIB[];    // LIB version
 #define SYSTEM_TIME_MICROSEN     625                               // unit of process event timer is 625us
 #define MS1_TO_SYSTEM_TIME(x)    ((x)*1000/SYSTEM_TIME_MICROSEN)   // transform unit in ms to unit in 625us ( attentional bias )
@@ -1974,7 +1974,7 @@ typedef struct
 
 // LLE_MODE_TYPE
 #define  LLE_MODE_BASIC               (0)   //!< basic mode, enter idle state after sending or receive
-#define  LLE_MODE_AUTO                (1)   //!< auto mode, auto swtich to the receiving status after sending and the sending status after receiving
+#define  LLE_MODE_AUTO                (1<<0)//!< auto mode, auto swtich to the receiving status after sending and the sending status after receiving
 #define  LLE_MODE_EX_CHANNEL          (1<<6)
 #define  LLE_MODE_NON_RSSI            (1<<7)
 
@@ -1998,7 +1998,12 @@ typedef struct  tag_rf_config
   u32 accessAddress;                        // access address,32bit PHY address
   u32 CRCInit;                              // crc initial value
   pfnRFStatusCB_t  rfStatusCB;              // status call back
-  u32 ChannelMap;                           // rf hopping channel map(0-31), default is all set 1
+  u32 ChannelMap;                           // indicating  Used and Unused data channels.Every channel is represented with a
+                                            // bit positioned as per the data channel index,The LSB represents data channel index 0
+  u8  Resv;
+  u8  HeartPeriod;                          // The heart package interval shall be an integer multiple of 100ms
+  u8  HopPeriod;                            // hop period( T=32n*RTC clock ),default is 8
+  u8  HopIndex;                             // indicate the hopIncrement used in the data channel selection algorithm,default is 17
 }rfConfig_t;
 
 /* end define@RF-PHY */
@@ -4188,7 +4193,7 @@ extern u8  RF_FrequencyHoppingTx( u8 resendCount );
  *
  * @param       None.
  *
- * @return      0 - success.
+ * @return      0 - success.1-fail.2-LLEMode error(shall AUTO)
  */
 extern u8  RF_FrequencyHoppingRx( u32 timeoutMS );
 

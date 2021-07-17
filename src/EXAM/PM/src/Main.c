@@ -70,7 +70,7 @@ int main()
 
 #if 1
   PRINT( "shut down mode sleep \n" );
-  PWR_PeriphWakeUpCfg( ENABLE, RB_SLP_GPIO_WAKE, Edge_ShortDelay );
+  PWR_PeriphWakeUpCfg( ENABLE, RB_SLP_GPIO_WAKE, Edge_LongDelay );
   DelayMs( 2 );
   LowPower_Shutdown( 0 );                          //全部断电，唤醒后复位
   /*

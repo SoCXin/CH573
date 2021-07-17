@@ -37,6 +37,7 @@ SECTIONS
 		KEEP(*(SORT_NONE(.vector_handler)))
         *(.highcode);
         *(.highcode.*);
+		. = ALIGN(4); 
         PROVIDE(_highcode_vma_end = .);
     } >RAM AT>FLASH
      
@@ -131,6 +132,7 @@ SECTIONS
 
 	.data :
 	{
+		. = ALIGN(4); 
 		PROVIDE(_data_vma = .);
     	*(.gnu.linkonce.r.*)
     	*(.data .data.*)

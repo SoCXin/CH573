@@ -8,7 +8,7 @@
     "Core": {
         "num": 1,
         "type":"RISC-V",
-        "Freq": 144,
+        "Freq": 20,
         "DMIPS": 100,
         "CoreMark": 160
     },
@@ -20,8 +20,8 @@
         "type": "git",
         "url": "https://github.com/SoCXin/CH573.git"
     },
-    "series":["CH573","CH32V203"],
-    "package":["LQFP64M","QFN68","QFN48","QFN28"],
+    "series":["CH573","CH571"],
+    "package":["QFN32","QFN28","QFN20"],
     "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
     "PWR": {
         "VDD": [2800,5000],
@@ -44,7 +44,7 @@
         "RISC-V",
         "WCH",
         "CH573",
-        "DAC","SDIO","CAN","I2C","RTC","SPI",
+        "BLE","SDIO","RISC-V3A","I2C","RTC","SPI",
         "3.6V","1.8V"
     ]
 }

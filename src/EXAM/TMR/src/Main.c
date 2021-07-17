@@ -47,7 +47,9 @@ int main()
 
   TMR3_PWMInit( High_Level, PWM_Times_1 );
   TMR3_PWMCycleCfg( 6000 );        // 周期 100us
-  TMR3_PWMActDataWidth( 3000 );              // 占空比 50%
+  TMR3_Disable();
+  TMR3_PWMActDataWidth( 3000 );              // 占空比 50%, 修改占空比必须暂时关闭定时器
+  TMR3_Enable();
 
 #endif   
 

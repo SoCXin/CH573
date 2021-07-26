@@ -9,8 +9,8 @@
         "num": 1,
         "type":"RISC-V",
         "Freq": 20,
-        "DMIPS": 100,
-        "CoreMark": 160
+        "DMIPS": 30,
+        "CoreMark": 60
     },
     "manufacturer": {
         "vendor":"WCH",

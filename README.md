@@ -32,13 +32,14 @@
 
 ### [选型建议](https://github.com/SoCXin)
 
-[CH573](https://github.com/SoCXin/CH573)
-
+[CH573](https://github.com/SoCXin/CH573) 是一款非常具有性价比的BLE SoC产品，可以应用于需要无线通信和USB通信的领域。
 
 * QFN28 (4*4mm)
+* QFN32 (4*4mm)
 
 [![sites](docs/diff.png)](http://www.wch.cn/products/CH573.html)
-[![sites](docs/list.png)](http://www.wch.cn/products/CH573.html)
+
+CH571 基于 CH573 简化，去掉了 USB host 主机和触摸按键检测模块、8 位 PWM 模块和两个串口，FlashROM 总容量仅 256KB，ADC 不支持 DMA，只支持 2.3V 以上电源电压。
 
 #### 相关开发板
 

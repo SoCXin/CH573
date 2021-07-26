@@ -49,7 +49,7 @@ void Main_Circulation()
 * Output         : None
 * Return         : None
 *******************************************************************************/
-int main( void ) 
+int main( void )
 {
 #if (defined (DCDC_ENABLE)) && (DCDC_ENABLE == TRUE)
   PWR_DCDCCfg( ENABLE );
@@ -63,12 +63,12 @@ int main( void )
   GPIOA_SetBits(bTXD1);
   GPIOA_ModeCfg(bTXD1, GPIO_ModeOut_PP_5mA);
   UART1_DefInit( );
-#endif   
-  PRINT("%s\n",VER_LIB);
+#endif
+  PRINT("QITAS TEST %s\n",VER_LIB);
   CH57X_BLEInit( );
 	HAL_Init( );
 	GAPRole_PeripheralInit( );
-	Peripheral_Init( ); 
+	Peripheral_Init( );
   Main_Circulation();
 }
 

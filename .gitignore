@@ -1,5 +1,6 @@
 *.pyc
-# *.hex
+*.BIN
+*.hex
 *.log
 .pio/
 .vscode/

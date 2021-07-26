@@ -91,8 +91,8 @@ int main( void )
   GPIOA_SetBits( bTXD1 );
   GPIOA_ModeCfg( bTXD1, GPIO_ModeOut_PP_5mA );
   UART1_DefInit();
-#endif   
-  PRINT( "%s\n", VER_LIB );
+#endif
+  PRINT( "qitas test %s\n", VER_LIB );
   FLASH_ROM_LOCK(0);
   ReadImageFlag();
   CH57X_BLEInit();

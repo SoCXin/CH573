@@ -19,16 +19,17 @@
 
 #### 关键特性
 
-* 内置DC/DC转换
+* 4组独立UART，兼容16C550，最高通讯波特率可达6Mbps
+* BLE4.2
+* USB H/D
 * 内置实时时钟RTC，支持定时和触发两种模式
-* SPI(M/S) + UART x 4 (16C550/6Mbps)
-* 内置AES-128加解密单元，芯片唯一ID
 
 ### [资源收录](https://github.com/SoCXin)
 
 * [参考资源](src/)
 * [参考文档](docs/)
 * [参考工程](project/)
+* [入门文档](docs.soc.xin/CH573)
 
 ### [选型建议](https://github.com/SoCXin)
 

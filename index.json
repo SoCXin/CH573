@@ -21,7 +21,7 @@
         "url": "https://github.com/SoCXin/CH573.git"
     },
     "series":["CH573","CH571"],
-    "package":["QFN32","QFN28","QFN20"],
+    "package":["QFN32","QFN28"],
     "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
     "PWR": {
         "VDD": [2800,5000],

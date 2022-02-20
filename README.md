@@ -1,6 +1,6 @@
 ﻿# [CH573](https://github.com/SoCXin/CH573)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](https://docs.soc.xin/CH573)
 
 * [WCH](http://www.wch.cn/)：[RISC-V3A](https://github.com/SoCXin/RISC-V)
 * [L2R2](https://github.com/SoCXin/Level)：20 MHz
@@ -30,7 +30,6 @@
 * [参考资源](src/)
 * [参考文档](docs/)
 * [参考工程](project/)
-* [入门文档](https://docs.soc.xin/CH573)
 
 ### [选型建议](https://github.com/SoCXin)
 

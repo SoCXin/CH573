@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tbruyelle:rxpermissions:0.10.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec1dfb2ffa96acf514d48380c4cac6e7/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec1dfb2ffa96acf514d48380c4cac6e7/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec1dfb2ffa96acf514d48380c4cac6e7/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7828f8f276d452548852ab0444bad6e1/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7828f8f276d452548852ab0444bad6e1/jetified-rxpermissions-0.10.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7828f8f276d452548852ab0444bad6e1/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3580c22282b05c636cb4861f711f9b11/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3580c22282b05c636cb4861f711f9b11/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3580c22282b05c636cb4861f711f9b11/jetified-rxpermissions-0.10.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/281dc480a5c0635f34607db39f7e7f42/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/281dc480a5c0635f34607db39f7e7f42/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/281dc480a5c0635f34607db39f7e7f42/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0540ddc3dd10af66337a9bda38bbf60/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0540ddc3dd10af66337a9bda38bbf60/jetified-rxpermissions-0.10.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0540ddc3dd10af66337a9bda38bbf60/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03c47c5f2d9323c042bc99610962e304/jetified-rxpermissions-0.10.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03c47c5f2d9323c042bc99610962e304/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03c47c5f2d9323c042bc99610962e304/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8ff309c97501eb00ff4922072d7063e/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8ff309c97501eb00ff4922072d7063e/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8ff309c97501eb00ff4922072d7063e/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/259374f19cffd5a6892ed44d02cb2746/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/259374f19cffd5a6892ed44d02cb2746/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/259374f19cffd5a6892ed44d02cb2746/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4bf85abc23f9afcad01d857ff4fbe5f/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4bf85abc23f9afcad01d857ff4fbe5f/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4bf85abc23f9afcad01d857ff4fbe5f/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9622f6914d61a366aaa980a46379748/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9622f6914d61a366aaa980a46379748/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9622f6914d61a366aaa980a46379748/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4fbc3aff0f925941020d6b7fd3d1cb20/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4fbc3aff0f925941020d6b7fd3d1cb20/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4fbc3aff0f925941020d6b7fd3d1cb20/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82bb97e5c241586feca7fff1e26c7467/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82bb97e5c241586feca7fff1e26c7467/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82bb97e5c241586feca7fff1e26c7467/jetified-rxpermissions-0.10.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38823a9dcd92ff51794f3338387c016a/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38823a9dcd92ff51794f3338387c016a/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38823a9dcd92ff51794f3338387c016a/jetified-rxpermissions-0.10.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62b2f961ec1ed4740fa64be14566c2e2/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62b2f961ec1ed4740fa64be14566c2e2/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62b2f961ec1ed4740fa64be14566c2e2/jetified-rxpermissions-0.10.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f239e2150c4160f5cfdd297606165a38/jetified-rxpermissions-0.10.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f239e2150c4160f5cfdd297606165a38/jetified-rxpermissions-0.10.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f239e2150c4160f5cfdd297606165a38/jetified-rxpermissions-0.10.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

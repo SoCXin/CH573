@@ -1,9 +1,7 @@
-﻿# [CH573](https://github.com/SoCXin/CH573)
-
-[![sites](http://182.61.61.133/link/resources/SoC.png)](https://docs.soc.xin/CH573)
+﻿# [CH573](https://docs.soc.xin/CH573)
 
 * [WCH](http://www.wch.cn/)：[RISC-V3A](https://github.com/SoCXin/RISC-V)
-* [L2R2](https://github.com/SoCXin/Level)：20 MHz
+* [L2R2](https://github.com/SoCXin/Level)：60 MHz
 
 ## [简介](https://github.com/SoCXin/CH573/wiki)
 
@@ -20,10 +18,11 @@
 #### 关键特性
 
 * SPI x 2 + UART x 4 (16C550/6Mbps)
-* BLE 4.2
+* BLE 4.2 (RX-96dBm，TX+5dBm)
 * USB H/D
 * 内置实时时钟RTC，支持定时和触发两种模式
 * 支持2.1V～3.6V, 内置DC/DC转换
+* 2 组端口PA和PB，22 x GPIO
 
 ### [资源收录](https://github.com/SoCXin)
 
@@ -37,8 +36,6 @@
 
 * QFN28 (4*4mm)
 * QFN32 (4*4mm)
-
-[![sites](docs/diff.png)](http://www.wch.cn/products/CH573.html)
 
 CH571 基于 CH573 简化，去掉了 USB host 主机和触摸按键检测模块、8 位 PWM 模块和两个串口，FlashROM 总容量仅 256KB，ADC 不支持 DMA，只支持 2.3V 以上电源电压。
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OTAUpdate.iml" filepath="$PROJECT_DIR$/.idea/modules/OTAUpdate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OTAUpdate.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OTAUpdate.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blelib/OTAUpdate.blelib.iml" filepath="$PROJECT_DIR$/.idea/modules/blelib/OTAUpdate.blelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otaupdate/OTAUpdate.otaupdate.iml" filepath="$PROJECT_DIR$/.idea/modules/otaupdate/OTAUpdate.otaupdate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui/OTAUpdate.ui.iml" filepath="$PROJECT_DIR$/.idea/modules/ui/OTAUpdate.ui.iml" />
+    </modules>
+  </component>
+</project>
